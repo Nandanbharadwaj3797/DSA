@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -18,3 +19,6 @@ public:
         return nums[0] + min1 + min2;
     }
 };
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
